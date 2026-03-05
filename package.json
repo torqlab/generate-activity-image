@@ -36,7 +36,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/torqlab/generate-strava-activity-image.git"
+    "url": "git+https://github.com/torqlab/generate-activity-image.git"
   },
   "homepage": "https://github.com/torqlab/generate-activity-image",
   "bugs": {
