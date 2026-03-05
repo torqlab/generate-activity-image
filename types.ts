@@ -8,7 +8,6 @@
  */
 export type GenerateActivityImageProvider = (prompt: string, apiKey?: string) => Promise<string>;
 
-
 /**
  * Supported image generation providers:
  * - `pollinations`: Free, unlimited, no authentication.
