@@ -29,7 +29,7 @@ const getProvider = (
       return async (prompt: string) => {
         const { default: pollinations } = await import('./pollinations');
 
-        return pollinations(prompt, providerApiKeys?.pollinations)
+        return pollinations(prompt, providerApiKeys?.pollinations);
       };
     }
     default: {

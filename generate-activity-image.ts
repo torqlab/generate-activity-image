@@ -15,12 +15,12 @@ import {
  * @internal
  * @param {string} prompt - Image generation prompt.
  * @param {string} defaultPrompt - Default prompt to use for retries.
- * @param {number} attempt - Current attempt number (0-based)
- * @param {number} maxAttempts - Maximum number of retries allowed
- * @param {GenerateActivityImageProviderName} [providerName] - Optional provider name
+ * @param {number} attempt - Current attempt number (0-based).
+ * @param {number} maxAttempts - Maximum number of retries allowed.
+ * @param {GenerateActivityImageProviderName} [providerName] - Optional provider name.
  * @param {GenerateActivityImageProviderApiKeys} [providerApiKeys] - Optional provider API keys.
- * @returns {Promise<string>} Promise resolving to base64-encoded image data URL
- * @throws {Error} Throws error if all retries fail
+ * @returns {Promise<string>} Promise resolving to base64-encoded image data URL.
+ * @throws {Error} Throws error if all retries fail.
  */
 const attemptGeneration = async (
   prompt: string,

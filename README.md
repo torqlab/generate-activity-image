@@ -140,7 +140,7 @@ The model is configurable via code customization.
 import {
   GENERATE_ACTIVITY_IMAGE_MAX_PROMPT_LENGTH,
   GENERATE_ACTIVITY_IMAGE_MAX_RETRIES,
-  } from '@torqlab/generate-activity-image';
+} from '@torqlab/generate-activity-image';
 
 // Maximum prompt length in characters
 console.log(GENERATE_ACTIVITY_IMAGE_MAX_PROMPT_LENGTH); // 1000
